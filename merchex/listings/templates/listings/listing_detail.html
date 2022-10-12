@@ -1,0 +1,11 @@
+{% extends 'listings/base.html' %}
+
+{% block content %}
+  <h2>{{listing.title}}</h2>
+  <ul>
+    <li>Sold: {{listing.sold | yesno}}</li>
+    <li>Year: {{listing.year}}</li>
+    <li>Type: {{listing.type}}</li>
+    <li>Description: {{listing.description}}</li>
+  </ul>
+{% endblock %}
