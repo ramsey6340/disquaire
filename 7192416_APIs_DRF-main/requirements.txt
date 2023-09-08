@@ -1,0 +1,4 @@
+djangorestframework
+djangorestframework-simplejwt
+
+Django~=4.1.7
